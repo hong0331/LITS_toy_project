@@ -58,4 +58,5 @@ def findAlphabeticalWords(fileName):
     return count
 
 
-# print("# of word with alphabeical letter =",findAlphabeticalWords("animals.txt"))
+baseURL = "https://a.mtholyoke.edu/acatech-2023/"
+print(baseURL+str(findAlphabeticalWords("animals.txt")))
